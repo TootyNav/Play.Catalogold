@@ -1,9 +1,8 @@
 using System;
-using Play.Common;
 
 namespace Play.Catalog.Service.Entities
 {
-    public class Item : IEntity
+    public class Item
     {
         public Guid Id { get; set; }
 
@@ -16,3 +15,4 @@ namespace Play.Catalog.Service.Entities
         public DateTimeOffset CreatedDate { get; set; }
     }
 }
+
